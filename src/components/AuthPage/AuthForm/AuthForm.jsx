@@ -1,4 +1,4 @@
-import styles from "./AuthForm.jsx";
+import styles from "./AuthForm.module.scss";
 
 function AuthForm() {
   return <div className={styles.auth}>AuthForm</div>;

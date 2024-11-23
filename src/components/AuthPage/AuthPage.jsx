@@ -1,4 +1,4 @@
-import styles from "./AuthPage.jsx";
+import styles from "./AuthPage.module.scss";
 
 function AuthPage() {
   return <div className={styles.auth}>AuthPage</div>;

@@ -1,4 +1,4 @@
-import styles from "./SearchPage.jsx";
+import styles from "./SearchPage.module.scss";
 
 function SearchPage() {
   return <div className={styles.auth}>SearchPage</div>;

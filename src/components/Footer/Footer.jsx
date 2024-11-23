@@ -1,7 +1,7 @@
-import styles from "./Footer.jsx";
+import styles from "./Footer.module.scss";
 
 function Footer() {
-  return <div className={styles.auth}>Footer</div>;
+  return <div className={styles.footer}>Footer</div>;
 }
 
 export default Footer;
