@@ -1,7 +1,7 @@
 import Header from "../Header/Header"
 import Footer from "../Footer/Footer"
 import { Outlet } from "react-router"
-import styles from "./MainLayout.module.css"
+import styles from "./MainLayout.module.scss"
 
 function MainLayout() {
   return (
