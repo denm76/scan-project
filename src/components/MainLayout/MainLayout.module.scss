@@ -1,0 +1,10 @@
+@import '../../assets/styles/variables';
+
+.wrapper {
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: rem(1440);
+	text-align: center;
+	margin: 0 auto;
+}

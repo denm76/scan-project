@@ -5,7 +5,7 @@ import styles from "./MainLayout.module.scss"
 
 function MainLayout() {
   return (
-    <div className={styles.main}>
+    <div className={styles.wrapper}> 
       <Header/>
       <Outlet/>
       <Footer/>

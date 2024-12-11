@@ -1,7 +1,57 @@
 @import '../../assets/styles/variables';
 
 .footer {
-  font-family: $second-family;
-  color: $gold;
-  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $green;
+  padding: rem(0) rem(60);
+  font-size: rem(14);
+  
+  @media (max-width: rem(1500)) {
+		padding: rem(0) rem(40);
+	}
+
+	@media (max-width: rem(991)) {
+		padding: rem(0) rem(30);
+	}
+
+	@media (max-width: rem(767)) {
+		padding: rem(0) rem(20);
+	}
+
+	@media (max-width: rem(479)) {
+		padding: rem(0) rem(15);
+	}
+
+	> img {
+		width: rem(141);
+		height: rem(141);
+
+		@media (max-width: rem(991)) {
+			width: rem(111);
+			height: rem(111);
+		}
+	}
+
+
+	> .footer__contacts {
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+		align-items: flex-end;
+		color: $white;
+
+    p:last-child {
+      font-size: rem(12);
+    }
+
+		a {
+			color: $white;
+		}
+
+		> .footer__mail {
+			margin-bottom: rem(15);
+		}
+	}
 }

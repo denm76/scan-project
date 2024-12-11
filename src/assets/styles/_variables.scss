@@ -1,3 +1,11 @@
+@use 'sass:math';
+
+@function rem($pixel) {
+  @if math.is-unitless($pixel) {
+    @return math.div($pixel, 16) + rem;
+  }
+}
+
 $font-family: "Inter", sans-serif;
 $second-family: "Ferry", sans-serif;
 $size-basic: 18px;
@@ -9,3 +17,4 @@ $lightblue: #7ce3e1;
 $black: #000000;
 $green: #029491;
 $white: #ffffff;
+
